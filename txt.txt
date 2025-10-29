@@ -1,0 +1,30 @@
+# 🃏 Entrenador de Estrategia Básica de Blackjack
+
+Este proyecto es una aplicación web de un solo archivo (`blackjack_trainer.html`) diseñada para ayudarte a memorizar la **Estrategia Básica** de Blackjack, la cual es la forma matemáticamente óptima de jugar sin contar cartas. Al dominar esta estrategia, reduces la ventaja de la ventaja de la casa a su mínimo absoluto (generalmente por debajo del 0.5%).
+
+## 🚀 Cómo Empezar
+
+1.  **Descargar/Clonar:** Descarga el archivo `blackjack_trainer.html` o clona este repositorio.
+2.  **Abrir:** Abre el archivo `blackjack_trainer.html` directamente en cualquier navegador web moderno (Chrome, Firefox, Edge, Safari). No se requiere servidor.
+
+## 🧠 La Estrategia
+
+La estrategia básica implementada en este entrenador asume las siguientes reglas de casino (las más comunes):
+
+* **Doble en cualquier mano:** Se permite doblar la apuesta inicial en cualquier mano de dos cartas.
+* **Crupier se Planta en Soft 17 (S17):** El crupier debe plantarse cuando su mano blanda es 17 (As + 6).
+* **Rendición:** No permitida. En situaciones donde la rendición sería óptima (por ejemplo, 16 duro vs 10 del crupier), la jugada se convierte en **Pedir (Hit)**.
+
+## ✨ Características del Entrenador
+
+* **Manos Aleatorias:** Genera al azar manos iniciales de jugador y la carta expuesta del crupier.
+* **Corrección Instantánea:** Te dice inmediatamente si tu jugada fue óptima.
+* **Explicación Detallada:** Si te equivocas, aparece una explicación lógica y clara del por qué la jugada óptima es la correcta (reglas de Manos Duras, Manos Blandas o Pares), y debes presionar "Continuar" para avanzar.
+* **Diseño Móvil:** Totalmente responsivo para practicar desde tu celular.
+* **Puntuación:** Lleva un registro de tu precisión para medir tu progreso.
+
+## 🛠️ Tecnologías Usadas
+
+* **HTML5:** Estructura de la aplicación.
+* **Tailwind CSS:** Estilos (cargado vía CDN) para un diseño moderno y responsive.
+* **JavaScript (Vainilla):** Toda la lógica del juego y la implementación de la Estrategia Básica.
